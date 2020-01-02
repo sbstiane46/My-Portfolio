@@ -57,6 +57,7 @@ h3 {
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
+  border-radius: 15px;
   overflow: auto;
   color: #535050;
   background: #535050;
@@ -67,6 +68,7 @@ h3 {
   float: left;
   width: 450px;
   height: 90px;
+  border-radius: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -117,11 +119,16 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
+#footer-container {
+  border-radius: 15px;
+}
+
 /* main */
 
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  border-radius: 15px;
 }
 
 .main-section {
@@ -180,10 +187,12 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  border-radius: 15px;
 }
 
 label,
