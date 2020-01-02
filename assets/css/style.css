@@ -175,6 +175,10 @@ h3, h2 {
   border-bottom: 0;
 }
 
+#project-title {
+  border-radius: 15px;
+}
+
 .auth-image {
   float: left;
   width: 200px;
