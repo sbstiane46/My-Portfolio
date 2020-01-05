@@ -2,8 +2,8 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
-  background: url("../images/mosaic.png");
+  color: #666666;
+  background: url("../images/charlottebackground.jpg");
 }
 
 * {
@@ -42,7 +42,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid #2c2c2c;
 }
 
 h2,
@@ -61,7 +61,8 @@ h3 {
   overflow: auto;
   color: #535050;
   background: #535050;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc9a;
+  background-image: linear-gradient(to #81C4FF, #16588E, #E7222E );
 }
 
 #logo {
@@ -69,14 +70,14 @@ h3 {
   width: 450px;
   height: 90px;
   border-radius: 15px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 43px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: rgba(129, 196, 255, 0.788);
 }
 
 nav {
@@ -108,7 +109,8 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-bottom: 2px solid #cccccc9a;
+  border-top: 8px solid ;
   height: 70px;
 }
 
@@ -137,8 +139,8 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  background: #ffffffd7;
+  border-radius: 15px solid #dddddd;
 }
 
 /* portfolio page */
@@ -171,8 +173,10 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: rgba(129, 196, 255, 0.795);
+  /* background-image: linear-gradient(to right,#81C4FF, #81C4FF, #E7222E); */
   border-bottom: 0;
+  border-radius: 15px;
 }
 
 #project-title {
@@ -225,7 +229,8 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #81C4FF;
+  /* background-image: linear-gradient(to right,#81C4FF, #81C4FF, #E7222E); */
   border: 0 none;
 }
 .footer-image {
