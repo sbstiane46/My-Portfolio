@@ -191,6 +191,10 @@ h3, h2 {
   margin-right: 25px;
 }
 
+.ltr-text {
+  direction: ltr;
+}
+
 /* contact page */
 
 #contact-form ul {
